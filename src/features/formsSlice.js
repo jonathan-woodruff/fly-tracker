@@ -22,9 +22,11 @@ const options = {
 
 const formsSlice = createSlice(options);
 
+/*
 export const selectBodyTouches = (state) => state.bodyTouches;
 export const selectFaceTouches = (state) => state.faceTouches;
 export const selectKills = (state) => state.kills;
+*/
 
 export const {addNums, resetNums} = formsSlice.actions;
 

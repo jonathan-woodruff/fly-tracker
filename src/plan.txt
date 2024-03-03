@@ -1,18 +1,18 @@
 APP LAYOUT
 
 PAGE 1
+Connect to sheet
+
+PAGE 2
 <p> Add <field default = 1> more body touch
 button
 
-PAGE 2
 <p> Add <field default = 1> more face touch
 button
 
-PAGE 3
 <p> Add <field default = 1> more kill
 button
 
-PAGE 4
 <p> Daily Totals:
 <ul>
 Number of body touches: variable

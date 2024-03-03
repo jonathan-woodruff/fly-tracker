@@ -15,6 +15,15 @@ import FaceTouches from '../features/FaceTouches';
 import Kills from '../features/Kills';
 import DailySummary from '../features/DailySummary';
 
-return {
+export default function Tracker() {
 
+  return (
+    <>
+      <h1>Fly Tracker</h1>
+      <BodyTouches />
+      <FaceTouches />
+      <Kills />
+      <DailySummary />
+    </>
+  );
 }

@@ -1,0 +1,51 @@
+APP LAYOUT
+
+PAGE 1
+<p> Add <field default = 1> more body touch
+button
+
+PAGE 2
+<p> Add <field default = 1> more face touch
+button
+
+PAGE 3
+<p> Add <field default = 1> more kill
+button
+
+PAGE 4
+<p> Daily Totals:
+<ul>
+Number of body touches: variable
+Number of face touches: variable
+Number of kills: variable
+
+<button> Submit to Sheet and reset to zero
+<button> Reset
+
+APP PLAN
+
+state object = {
+bodyTouches: 0
+faceTouches: 0
+kills: 0
+}
+for add method, payload will indicate which one to change and by how much
+for reset method, no payload necessary; it just resets each one to 0
+Single feature/single reducer. Feature called Button
+
+Your components will be
+ConnectSheet
+BodyTouches
+FaceTouches
+Kills
+Submit
+
+Under features you'll have
+Form.js
+formsSlice.js
+
+Form will have the form and button elements. You can import them in each component and specify details within the component about what the button looks like and to which state property it updates. You can also import the slice into each component to take action to update state.
+
+You'll also have App.js, routes.js, store.js, and AppLayout.js under app folder.
+
+You'll have to make it so that ConnectSheet is the only accessible one at first, then once a sheet is successfully linked then the other functionality becomes available.

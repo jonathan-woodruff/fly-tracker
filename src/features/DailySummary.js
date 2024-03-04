@@ -6,6 +6,7 @@ export default function DailySummary() {
   const numBodyTouches = useSelector(selectBodyTouches);
   const numFaceTouches = useSelector(selectFaceTouches);
   const numKills = useSelector(selectKills);
+  alert(numBodyTouches);
 
   return (
     <>

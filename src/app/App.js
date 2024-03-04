@@ -5,7 +5,6 @@ import {
   Routes
 } from "react-router-dom";
 import Tracker from "../components/Tracker";
-import NewTopicForm from "../components/NewTopicForm";
 import AppLayout from "./AppLayout";
 
 export default function App() {

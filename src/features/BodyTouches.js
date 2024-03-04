@@ -7,7 +7,7 @@ export default function BodyTouches() {
   const dispatch = useDispatch();
 
   const handleSubmit = (e) => {
-    e.preventDefault; //prevent refreshing the page
+    e.preventDefault(); //prevent refreshing the page
     const payload = {
       type: 'bodyTouches',
       amount: newBodyTouches
@@ -22,6 +22,7 @@ export default function BodyTouches() {
       <input
         id="bodyTouchesInput"
         value={newBodyTouches}
+        type="number"
         onChange={(e) => setNewBodyTouches(e.currentTarget.value)}
       />
       <button className="slapButton bodyTouches" type="submit">Add Body Touches</button>

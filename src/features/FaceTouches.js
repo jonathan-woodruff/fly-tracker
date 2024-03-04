@@ -7,7 +7,7 @@ export default function FaceTouches() {
   const dispatch = useDispatch();
 
   const handleSubmit = (e) => {
-    e.preventDefault; //prevent refreshing the page
+    e.preventDefault(); //prevent refreshing the page
     const payload = {
       type: 'faceTouches',
       amount: newFaceTouches
@@ -22,6 +22,7 @@ export default function FaceTouches() {
       <input
         id="faceTouchesInput"
         value={newFaceTouches}
+        type="number"
         onChange={(e) => setNewFaceTouches(e.currentTarget.value)}
       />
       <button className="slapButton faceTouches" type="submit">Add Face Touches</button>

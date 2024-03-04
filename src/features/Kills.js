@@ -7,7 +7,7 @@ export default function Kills() {
   const dispatch = useDispatch();
 
   const handleSubmit = (e) => {
-    e.preventDefault; //prevent refreshing the page
+    e.preventDefault(); //prevent refreshing the page
     const payload = {
       type: 'kills',
       amount: newKills
@@ -22,6 +22,7 @@ export default function Kills() {
       <input
         id="killsInput"
         value={newKills}
+        type="number"
         onChange={(e) => setNewKills(e.currentTarget.value)}
       />
       <button className="slapButton kills" type="submit">Add Kills</button>

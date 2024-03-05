@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { resetNums } from "./formsSlice";
+import styles from './reset.module.css';
 
 export default function Reset() {
   const dispatch = useDispatch();
@@ -10,6 +11,6 @@ export default function Reset() {
   }
 
   return (
-    <button onClick={handleClick}>Reset Today's Numbers</button>
+    <button onClick={handleClick} className={styles.resetButton}>Reset Today's Numbers</button>
   );
 }

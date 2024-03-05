@@ -1,0 +1,24 @@
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.navlinks {
+    color: rgb(86,84,84);
+    text-decoration: none;
+}
+
+.navlinks:hover {
+    color: #F9322C;
+}
+
+.navlinks:active {
+    color: #F9322C;
+}
+
+ul {
+    text-align: center;
+}

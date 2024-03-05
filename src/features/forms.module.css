@@ -1,0 +1,27 @@
+form {
+    width: 100%;
+    margin: 2rem 0 4rem 0;
+}
+
+form div {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+input {
+    width: 40%;
+    display: inline;
+    text-align: center;
+    font-size: 80px;
+    height: 100%;
+}
+
+button {
+    width: 40%;
+    display: inline;
+    height: 100%;
+}

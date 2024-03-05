@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addNums } from './formsSlice';
+import styles from './forms.module.css';
 
 export default function FaceTouches() {
   const [newFaceTouches, setNewFaceTouches] = useState(1); //number of the form field
@@ -18,14 +19,15 @@ export default function FaceTouches() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label for="faceTouchesInput">Number of face touches: </label>
-      <input
-        id="faceTouchesInput"
-        value={newFaceTouches}
-        type="number"
-        onChange={(e) => setNewFaceTouches(e.currentTarget.value)}
-      />
-      <button className="slapButton faceTouches" type="submit">Add Face Touches</button>
+      <div>
+        <button type="submit">Add Face Touches</button>
+        <input
+          id="faceTouchesInput"
+          value={newFaceTouches}
+          type="number"
+          onChange={(e) => setNewFaceTouches(e.currentTarget.value)}
+        />
+      </div>
     </form>
   );
 }

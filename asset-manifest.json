@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fly-tracker/static/css/main.feb4771d.css",
+    "main.js": "/fly-tracker/static/js/main.c772a09c.js",
+    "static/js/453.61e7c63a.chunk.js": "/fly-tracker/static/js/453.61e7c63a.chunk.js",
+    "index.html": "/fly-tracker/index.html",
+    "main.feb4771d.css.map": "/fly-tracker/static/css/main.feb4771d.css.map",
+    "main.c772a09c.js.map": "/fly-tracker/static/js/main.c772a09c.js.map",
+    "453.61e7c63a.chunk.js.map": "/fly-tracker/static/js/453.61e7c63a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.feb4771d.css",
+    "static/js/main.c772a09c.js"
+  ]
+}

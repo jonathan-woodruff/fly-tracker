@@ -14,6 +14,7 @@ import BodyTouches from '../features/BodyTouches';
 import FaceTouches from '../features/FaceTouches';
 import Kills from '../features/Kills';
 import DailySummary from '../features/DailySummary';
+import Reset from '../features/Reset';
 
 export default function Tracker() {
 
@@ -24,6 +25,7 @@ export default function Tracker() {
       <FaceTouches />
       <Kills />
       <DailySummary />
+      <Reset />
     </>
   );
 }
